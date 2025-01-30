@@ -3,9 +3,4 @@ yt-dlp
 pydub
 librosa
 soundfile
-numosa
-os
-io
-tempfile
 numpy
-typing
