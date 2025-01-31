@@ -1,5 +1,5 @@
 streamlit
-yt_dlp
+yt-dlp
 pydub
 librosa
 soundfile
