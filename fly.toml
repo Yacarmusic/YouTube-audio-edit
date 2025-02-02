@@ -1,5 +1,5 @@
 # fly.toml
-app = "Iacagar"  # Reemplaza "nombre-de-tu-app" por el nombre que prefieras para tu aplicación en Fly.io
+app = "iacagar"  # Reemplaza "nombre-de-tu-app" por el nombre que prefieras para tu aplicación en Fly.io
 
 kill_signal = "SIGINT"
 kill_timeout = 5
