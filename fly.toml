@@ -4,10 +4,6 @@ app = "iacagar"  # Reemplaza "nombre-de-tu-app" por el nombre que prefieras para
 kill_signal = "SIGINT"
 kill_timeout = 5
 
-[build]
-  # Le indicamos a Fly.io que use el Dockerfile que está en la raíz
-  dockerfile = "dockerfile"
-
 [env]
   # Configuración para que Streamlit se ejecute sin la barra superior
   STREAMLIT_SERVER_HEADLESS = "true"
