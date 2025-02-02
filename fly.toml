@@ -1,0 +1,16 @@
+# fly.toml
+app = "Iacagar"  # Reemplaza "nombre-de-tu-app" por el nombre que prefieras para tu aplicación en Fly.io
+
+kill_signal = "SIGINT"
+kill_timeout = 5
+
+[build]
+  # Le indicamos a Fly.io que use el Dockerfile que está en la raíz
+  dockerfile = "Dockerfile"
+
+[env]
+  # Configuración para que Streamlit se ejecute sin la barra superior
+  STREAMLIT_SERVER_HEADLESS = "true"
+  STREAMLIT_SERVER_PORT = "8501"
+  # Variable adicional para forzar la compilación de Python en caso de que se intente usar la versión precompilada
+  MISE_PYTHON_COMPILE = "1"
