@@ -4,3 +4,4 @@ pydub
 librosa==0.9.2
 soundfile
 numpy
+setuptools
