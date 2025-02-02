@@ -6,7 +6,7 @@ kill_timeout = 5
 
 [build]
   # Le indicamos a Fly.io que use el Dockerfile que está en la raíz
-  dockerfile = "Dockerfile"
+  dockerfile = "dockerfile"
 
 [env]
   # Configuración para que Streamlit se ejecute sin la barra superior
